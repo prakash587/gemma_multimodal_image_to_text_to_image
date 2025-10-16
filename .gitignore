@@ -1,0 +1,32 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.DS_Store
+.env
+.venv/
+venv/
+.env.local
+
+# --- Streamlit secrets (sensitive) ---
+.streamlit/secrets.toml
+.streamlit/secrets.toml/
+# --- Model caches / large files ---
+hf_models/
+cache/
+checkpoints/
+outputs/
+*.safetensors
+*.pt
+*.bin
+
+# --- IDE files ---
+.idea/
+.vscode/
+*.iml
+
+# --- Temporary files ---
+tmp/
+*.tmp
